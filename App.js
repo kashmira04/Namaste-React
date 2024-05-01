@@ -1,5 +1,10 @@
-const heading = React.createElement("h1", {
-    id: "heading", xyz: "abc"
-}, "Hello world from React")
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(heading);
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+const App = () => {
+    return (
+        <div>New project</div>
+    );
+};
+
+export default App;
